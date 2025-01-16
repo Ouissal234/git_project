@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    
+}
+header h1{
+    color: #333461;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-family: serif;
+    width: 400;
+    size: 30px;
+    color: #4A556C;
+}
+header button{
+    background-color: #20AD96;
+    width:  193px;
+height:40px;
+left: 383px;
+padding: 11px 16px 11px 16px;
+gap: 10px;
+border: none;
+color: aliceblue;
+
+}
