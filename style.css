@@ -1,3 +1,9 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kumbh Sans";
+    box-sizing: border-box
+}
 header{
     display: flex;
     justify-content: space-around;
@@ -28,5 +34,108 @@ padding: 11px 16px 11px 16px;
 gap: 10px;
 border: none;
 color: aliceblue;
+border-radius: 4px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(2,720px);
+    grid-template-rows: 620px;
+    justify-content: space-between;
+  
+}
+.item2{
+    background-color: #FAF8F6;
+}
+.item1 h1{
+ color: #333461;
+ margin-top: 60px;
+font-size: 48px;
+margin-left: 155px;
+
 
 }
+.item1 p{
+    color: #4A556C;
+    margin-left: 155px;
+}
+.button1{
+    
+    display: flex;
+    flex-direction: column;
+     height: 60px;
+     width:299px ;
+    gap: 15px;
+    margin-left: 155px;
+}
+ section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #4A556C;
+    border: #4A556C 1px solid;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  .button2 button{
+    background-color: #20AD96;
+    color: #Fff;
+    height: 60px;
+    width:299px ;
+    margin-left: 155px;
+  }
+  .button2 p{
+    margin-top: 50px; 
+font-size: 14px;
+font-weight: 400;
+  }
+  .item2 .all{
+    background-color: #333461;
+    width: 436px;
+    height: 521px;
+    margin-left: 150px;
+    margin-top: 30px;
+  }
+ 
+ .item2 img{
+padding-left: 95px;
+margin-top: -195px;
+position: absolute;
+}
+.item2 .heropara{
+    color: #Fff;
+    font-size: 55px;
+    font-weight: 600;
+    padding-left: 40px;
+    padding-top: 25px;
+    position: relative; 
+    z-index: 1;
+   
+}
+.item2 .Ready{
+    background-color: #413A7D4D;
+    position: relative; 
+    z-index: 1;
+    color: #Fff;
+    width: 436px;
+height: 78.81px;
+
+}
+.Ready h3{
+    padding-top: 13px;
+margin-left: 120px;
+font-size: 20px;
+font-weight: 300;
+
+}
+.Ready p{
+    margin-left: 120px;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: -10px;
+    
+}
+
+ 
+
+
+
+
