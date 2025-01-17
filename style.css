@@ -119,8 +119,11 @@ position: absolute;
 height: 78.81px;
 
 }
+.ready{
+    margin-top: 130px;
+}
 .Ready h3{
-    padding-top: 13px;
+ padding-top: -90px;
 margin-left: 120px;
 font-size: 20px;
 font-weight: 300;
@@ -129,11 +132,103 @@ font-weight: 300;
 .Ready p{
     margin-left: 120px;
     font-size: 12px;
-    font-weight: 200;
-    margin-top: -10px;
+    
     
 }
+.ready .cercle{
+  
+    width: 50px; /* Width of the circle */
+  height: 50px; /* Height of the circle (same as width for perfect circle) */
+  background-color: #Fff; /* Choose a background color */
+  border-radius: 50%;
 
+
+}
+
+.section2 h1{
+    color: #333461;
+font-size: 48px;
+font-weight: 800;
+
+
+}
+.section2 p{
+    color: #4A556C;
+ 
+}
+ .section2{
+    display: flex;
+    justify-content: space-around;
+ }
+ .section2 .b3{
+    background-color: #20AD96;
+    color: #Fff;
+    width: 225px;
+height: 48px;
+border-radius: 8px ;
+margin-top: 80px;
+border: none;
+
+ }
+ .center{
+   background-color: #FAF8F6; 
+   display: flex;
+   justify-content: space-around;
+   width: 1510px;
+height: 418px;
+padding-top: 100px;
+
+ }
+.first p{
+    color: #4A556C;
+ }
+ .first h1{
+    color: #333461;
+font-size: 48px;
+font-weight: 800;
+
+ }
+ .seconde p{
+    color: #4A556C;
+font-size: 16px;
+font-weight: 400;
+
+
+ }
+ .seconde h3{
+    color: #333461;
+   
+font-size: 19px;
+font-weight: 700;
+
+
+ }
+ .section3 .highlight{
+    color: #20AD96;
+ }
+.section3 h1{
+    color: #333461;
+font-size: 48px;
+font-weight: 800;
+}
+.section3 p{
+    color: #4A556C;
+font-size: 17px;
+font-weight: 400;
+margin-left: 80px;
+}
+.section3 button{
+    background-color: #20AD96;
+    color: #FAF8F6;
+    width:250px;
+height:44px;
+gap: 15px;
+border: none;
+margin-left: 190px;
+}
+.section3{
+    margin-left: 450px;
+}
  
 
 
